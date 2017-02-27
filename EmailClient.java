@@ -12,7 +12,7 @@ public class EmailClient {
         String userInput;
         boolean cont = true;
         Scanner scanner = new Scanner(System.in);
-        Socket clientSocket = new Socket("192.168.2.6", 6789);
+        Socket clientSocket = new Socket("", 6789);
         boolean authenticated = false;
 
         while(cont) {
